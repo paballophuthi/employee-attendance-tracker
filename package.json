@@ -1,0 +1,22 @@
+{
+  "name": "employee-attendance-tracker",
+  "version": "1.0.0",
+  "description": "Full-stack Employee Attendance Tracker for Limkokwing University",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "attendance",
+    "employee",
+    "tracker",
+    "limkokwing",
+    "react",
+    "nodejs",
+    "mysql"
+  ],
+  "author": "Student",
+  "license": "MIT"
+}
